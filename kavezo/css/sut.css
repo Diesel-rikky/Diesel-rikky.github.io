@@ -1,0 +1,6 @@
+header {
+    height: 250px;
+    background: url('../imgs/header-apple-pie.png');
+    background-size: cover;
+    background-position: center;
+}

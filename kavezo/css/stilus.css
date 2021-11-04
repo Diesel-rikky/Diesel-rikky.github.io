@@ -1,0 +1,175 @@
+body {
+    background-color: rgba(252, 252, 189, 0.795)!important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: verdana;
+}
+
+@font-face {
+    font-family: Font;
+    src: url(../fonts/FrederickatheGreat-Regular.ttf);
+}
+
+header {
+    height: 250px;
+    background: url('../imgs/header-cf.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.topnav {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    overflow: hidden;
+    background-color:#00750afd;
+}
+.topnav a {
+    border-right: 1px solid black;
+    float: left;
+    display: block;
+    color: #ebebebcb;
+    text-align: center;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: rgba(165, 164, 164, 0.568);
+    color: black;
+    text-decoration: none;
+}
+.topnav a.active {
+    color: white;
+}
+.topnav .icon {
+    display: none;
+}
+  @media screen and (max-width: 500px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: center;
+      border-bottom: 1px solid black;
+
+    }
+    #myTopnav.topnav.responsive {
+      position: fixed;
+    }
+  }
+#myTopnav > a {
+    padding: 11px 11px;
+    height: 100%;
+}
+#myTopnav > .brand {
+    padding: 7px;
+    font-size: 21px;
+    color:white;
+}
+.brand {
+    pointer-events: none;
+}
+.icon {
+  background-color: transparent!important;
+}
+
+h1 {
+    padding: 20px;
+    font-family: Verdana;
+    text-align: center;
+    font-family: Font;
+    color: #00750afd;
+}
+
+.prev {
+    max-width: 300px;
+    max-height: 300px;
+    margin-bottom: 50px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.664) 13px 13px 20px;
+}
+.prev > p {
+    text-align: center;
+    margin: 0;
+    border: 1px solid black;
+    border-radius: 0px 0px 10px 10px;
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.prev img {
+    max-height: 300px;
+}
+.img > .overlay {
+  position: absolute; 
+  top: 0; 
+  background: rgba(0, 0, 0, 0.589);
+  color: #f1f1f1; 
+  max-width: 300px;
+  width: calc(100% - 30px);
+  height: 45%;
+  transition: .3s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0px;
+  margin-right: 15px;
+  box-sizing:border-box;
+}  
+.prev:hover .overlay {
+  opacity: 1!important;
+}
+.overlay > p {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin: 0;
+  font-family: Font;
+  font-size: 27px;
+}
+.overlay {
+  position: relative;
+}
+
+#footer {
+    color: white;
+    background-color: #00750afd;
+    font-size: 14px;
+    bottom:0;
+    width: 100%;
+}
+.foot {
+    font-weight: bold;
+    font-size: 34px;
+}
+#left {
+    float: left;
+    background-color: #00750afd;
+}
+#right {
+    float: right;
+    background-color: #00750afd;
+}
+input {
+    max-width: 50%;
+}
+.btn {
+    padding: 4px;
+    font-size: 15px;
+}

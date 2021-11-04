@@ -1,0 +1,10 @@
+header {
+    height: 350px;
+    background: url('../imgs/header-blog.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+img {
+  max-width:500px;
+}
