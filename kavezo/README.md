@@ -1,5 +1,5 @@
 # Lucky kávézó
-## Csapat tagjai
+## a Csapat tagjai
 - Kasza Tünde
 - Rostás Barbara
 - Kása Patrik
