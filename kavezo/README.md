@@ -18,3 +18,6 @@
  - munkaterv készítés
  - kávé, sütemény oldal kódolás
  - weboldal formázás
+
+#### _A weboldal előnézete:_
+![imgs/preview.png](imgs/preview.png)
