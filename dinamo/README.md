@@ -1,4 +1,4 @@
-# Dinamó
+# Dinamo
 OKJ vizsgafeladat
 ## Csapat tagjai
 - Kasza Tünde
