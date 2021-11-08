@@ -13,3 +13,6 @@
  #### Patrik
  - munkaterv készítés
  - weboldal formázás
+
+#### _A weboldal előnézete:_
+![preview.png](preview.png)
