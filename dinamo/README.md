@@ -1,9 +1,10 @@
-# dinamo
+# Dinamó
 OKJ vizsgafeladat
-# A csapat tagjai
-- Diák
-- Diák 2
-- Diák 3
+## Csapat tagjai
+- Kasza Tünde
+- Rostás Barbara
+- Kása Patrik
+
 
 Segítség a Markdown-hoz: [Markdown](https://en.wikipedia.org/wiki/Markdown)
 
